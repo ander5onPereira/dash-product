@@ -1,0 +1,33 @@
+@use "tailwindcss";
+
+:root {
+  --scrollbar-track-color: transparent;
+  --scrollbar-thumb-color-start: #0072ff;
+  --scrollbar-thumb-color-end: #0072ff;
+}
+@theme {
+  --color-primary: #4e73df;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c6c6c6;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #909090;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #606060;
+}
