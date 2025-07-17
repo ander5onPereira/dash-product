@@ -47,7 +47,6 @@ export function FormProduct({ onClose, initialData, refetch }: Props) {
       ),
     });
   }
-  console.log({ formData });
   return (
     <Card className={'w-[50dvw] '}>
       <form onSubmit={(e) => handleSubmit(e)}>
